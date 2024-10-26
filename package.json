@@ -1,0 +1,17 @@
+{
+  "name": "js-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build-all": "node build-all.js",
+    "install-deps": "node install-deps.js",
+    "publish-all": "node publish-all.js",
+    "start-backend": "node start-backend.js",
+    "update-deps": "node update-deps.js",
+    "upgrade-all": "node upgrade-all.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "chalk": "^5.3.0"
+  }
+}
