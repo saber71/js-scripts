@@ -7,7 +7,7 @@ import process from "node:process"
 
 export const nodeProjects = []
 
-const __dirname = path.resolve("../")
+const __dirname = path.resolve(process.argv[2] || "../")
 const dirs = fs.readdirSync(__dirname)
 
 for (let dir of dirs) {
